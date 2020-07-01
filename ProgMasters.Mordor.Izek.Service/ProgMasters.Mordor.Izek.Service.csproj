@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProgMasters.Mordor.Izek.Repository.Abstractions\ProgMasters.Mordor.Izek.Repository.Abstractions.csproj" />
+    <ProjectReference Include="..\ProgMasters.Mordor.Izek.Service.Abstractions\ProgMasters.Mordor.Izek.Service.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

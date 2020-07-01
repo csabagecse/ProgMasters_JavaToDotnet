@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgMasters.Mordor.Izek.API", "ProgMasters.Mordor.Izek.API\ProgMasters.Mordor.Izek.API.csproj", "{BA20060C-9073-4D74-888C-D869BB7CF445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgMasters.Mordor.Izek.Service", "ProgMasters.Mordor.Izek.Service\ProgMasters.Mordor.Izek.Service.csproj", "{A10C83C6-61FC-4C35-B753-3C3104059648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgMasters.Mordor.Izek.Service.Abstractions", "ProgMasters.Mordor.Izek.Service.Abstractions\ProgMasters.Mordor.Izek.Service.Abstractions.csproj", "{D97D00C0-8D6F-4B24-B01F-6B49068E7013}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgMasters.Mordor.Izek.Domain", "ProgMasters.Mordor.Izek.Domain\ProgMasters.Mordor.Izek.Domain.csproj", "{29AF394B-0DF1-4E8D-997B-55FC4B6B5A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgMasters.Mordor.Izek.Repository", "ProgMasters.Mordor.Izek.Repository\ProgMasters.Mordor.Izek.Repository.csproj", "{263C2752-9FB7-450B-868F-FB4DB3C3D5AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgMasters.Mordor.Izek.Repository.Abstractions", "ProgMasters.Mordor.Izek.Repository.Abstractions\ProgMasters.Mordor.Izek.Repository.Abstractions.csproj", "{DEFD0C87-4093-4D72-95AB-E81E91A3511F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA20060C-9073-4D74-888C-D869BB7CF445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA20060C-9073-4D74-888C-D869BB7CF445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA20060C-9073-4D74-888C-D869BB7CF445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA20060C-9073-4D74-888C-D869BB7CF445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A10C83C6-61FC-4C35-B753-3C3104059648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10C83C6-61FC-4C35-B753-3C3104059648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10C83C6-61FC-4C35-B753-3C3104059648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10C83C6-61FC-4C35-B753-3C3104059648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97D00C0-8D6F-4B24-B01F-6B49068E7013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97D00C0-8D6F-4B24-B01F-6B49068E7013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97D00C0-8D6F-4B24-B01F-6B49068E7013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97D00C0-8D6F-4B24-B01F-6B49068E7013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29AF394B-0DF1-4E8D-997B-55FC4B6B5A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29AF394B-0DF1-4E8D-997B-55FC4B6B5A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29AF394B-0DF1-4E8D-997B-55FC4B6B5A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29AF394B-0DF1-4E8D-997B-55FC4B6B5A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{263C2752-9FB7-450B-868F-FB4DB3C3D5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263C2752-9FB7-450B-868F-FB4DB3C3D5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263C2752-9FB7-450B-868F-FB4DB3C3D5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263C2752-9FB7-450B-868F-FB4DB3C3D5AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEFD0C87-4093-4D72-95AB-E81E91A3511F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEFD0C87-4093-4D72-95AB-E81E91A3511F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEFD0C87-4093-4D72-95AB-E81E91A3511F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEFD0C87-4093-4D72-95AB-E81E91A3511F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E99020F-77BB-4C13-8292-D76F1043DB62}
+	EndGlobalSection
+EndGlobal
