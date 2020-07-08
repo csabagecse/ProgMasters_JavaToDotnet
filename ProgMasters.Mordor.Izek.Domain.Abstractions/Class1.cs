@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ProgMasters.Mordor.Izek.Repository
+namespace ProgMasters.Mordor.Izek.Domain.Abstractions
 {
     public class Class1
     {

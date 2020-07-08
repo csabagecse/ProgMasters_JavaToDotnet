@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 
-namespace ProgMasters.Mordor.Izek.API.Dto
+namespace ProgMasters.Mordor.Izek.Domain
 {
     public enum Weapon
     {

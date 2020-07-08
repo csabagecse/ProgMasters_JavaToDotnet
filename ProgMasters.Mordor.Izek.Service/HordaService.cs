@@ -15,9 +15,9 @@ namespace ProgMasters.Mordor.Izek.Service
             this.hordaRepository = hordaRepository;
         }
 
-
         public IEnumerable<Horda> GetAll()
         {
+            throw new NotImplementedException();
         }
     }
 }

@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 
-namespace ProgMasters.Mordor.Izek.API.Dto
+namespace ProgMasters.Mordor.Izek.Domain
 {
     public class Ork
     {
         public string Name { get; set; }
-        public List<string> Weapons { get; set; }
+        public List<Weapon> Weapons { get; set; }
         public int KillCount { get; set; }
     }
 }

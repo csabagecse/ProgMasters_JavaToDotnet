@@ -3,10 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProgMasters.Mordor.Izek.Service.Abstractions
+namespace ProgMasters.Mordor.Izek.Repository.Abstractions
 {
-    public interface IOrkService
+    public interface IOrkRepository
     {
         IEnumerable<Ork> GetAll();
+
+        Ork GetByName(string name);
     }
 }
