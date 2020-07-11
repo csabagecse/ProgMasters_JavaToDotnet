@@ -6,5 +6,6 @@ namespace ProgMasters.Mordor.Izek.Repository.Entities
 {
     public class DbHorda
     {
+        public int Id { get; set; }
     }
 }

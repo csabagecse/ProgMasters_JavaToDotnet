@@ -1,5 +1,6 @@
 ﻿using ProgMasters.Mordor.Izek.Domain;
 using ProgMasters.Mordor.Izek.Repository.Abstractions;
+using ProgMasters.Mordor.Izek.Repository.Mapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,22 +9,24 @@ namespace ProgMasters.Mordor.Izek.Repository
 {
     public class OrkRepository : IOrkRepository
     {
-        private readonly IIzeContext izeContext;
+        private readonly IOrkMapper mapper;
 
-        public OrkRepository(IIzeContext izeContext)
+        public OrkRepository(IOrkMapper mapper)
         {
-            this.izeContext = izeContext;
+            this.mapper = mapper;
         }
 
         public IEnumerable<Ork> GetAll()
         {
-            return izeContext.Orkok.Select(o => mapper.Map(o));
+            using var ctx = new IzeContext();
+            return ctx.Orkok.Select(o => mapper.MapToDomain(o)).ToList();
         }
 
         public Ork GetByName(string name)
         {
-            var ork = izeContext.Orkok.Where(o => o.Name == name).Single();
-            return mapper.Map(ork);
+            using var ctx = new IzeContext();
+            var ork = ctx.Orkok.Where(o => o.Name == name).Single();
+            return mapper.MapToDomain(ork);
         }
     }
 }

@@ -5,7 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ProgMasters.Mordor.Izek.Repository\ProgMasters.Mordor.Izek.Repository.csproj" />
     <ProjectReference Include="..\ProgMasters.Mordor.Izek.Service.Abstractions\ProgMasters.Mordor.Izek.Service.Abstractions.csproj" />
+    <ProjectReference Include="..\ProgMasters.Mordor.Izek.Service\ProgMasters.Mordor.Izek.Service.csproj" />
   </ItemGroup>
 
 

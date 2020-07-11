@@ -13,6 +13,7 @@ namespace ProgMasters.Mordor.Izek.API.Mapper
         {
             return new Dto.Ork
             {
+                Id = ork.Id,
                 KillCount = ork.KillCount,
                 Name = ork.Name,
                 Weapons = ork.Weapons.Select(w => w.ToString()).ToList()
@@ -23,6 +24,7 @@ namespace ProgMasters.Mordor.Izek.API.Mapper
         {
             return new Domain.Ork
             {
+                Id = ork.Id,
                 KillCount = ork.KillCount,
                 Name = ork.Name,
                 Weapons = ork.Weapons.Select(w => Enum.Parse<Weapon>(w)).ToList()

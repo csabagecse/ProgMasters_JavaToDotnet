@@ -17,7 +17,7 @@ namespace ProgMasters.Mordor.Izek.API.Controllers
         private readonly ILogger<HordaController> _logger;
         private readonly IHordaService hordaService;
 
-        public HordaController(ILogger<HordaController> logger, IHordaService hordaService, IHordaMapper)
+        public HordaController(ILogger<HordaController> logger, IHordaService hordaService)
         {
             _logger = logger;
             this.hordaService = hordaService;
